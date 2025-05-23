@@ -8,7 +8,8 @@ import { CommonModule } from '@angular/common';
   styleUrl: './fruitlist.component.scss'
 })
 export class FruitlistComponent {
-
+  fontcolorgood = "green";
+  fontcolorbad = "red";
   fruitlist = [
     {
       name: "Apfel",
